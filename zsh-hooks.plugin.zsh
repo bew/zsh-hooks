@@ -115,6 +115,7 @@ hooks-define-hook(){
 
 -hooks-define-zle-hook zle-isearch-exit
 -hooks-define-zle-hook zle-isearch-update
+-hooks-define-zle-hook zle-line-pre-redraw
 -hooks-define-zle-hook zle-line-init
 -hooks-define-zle-hook zle-line-finish
 # this one causes a double-free error for zaw using the ag source
